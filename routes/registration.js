@@ -28,7 +28,7 @@ router
         (req,res)=>{
             const errors = validationResult(req);
             if (!errors.isEmpty()) {
-                return res.status(400)
+                return res.status(400) //try and catch here
                         .json({ 
                             errors: errors.array() 
                         });
