@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            padding:auto;
+            margin:auto;
+            font-size: 1rem;
+        }
+        .form-group{
+            padding:auto;
+            margin:auto;
+            width:300px;
+            font-size: 1rem;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="/profile" method="post">
+            <label>service name </label>
+            <input type="text" name="serviceName"> </br>
+            <label>device name </label>
+            <input type="text" name="deviceName"> </br>
+            <label>experience [1-5] </label>
+            <input type="text" name="experience"> </br>
+            <label>location </label>
+            <input type="text" name="location"> </br>
+            <label>service location </label>
+            <input type="text" name="serviceLocation"> </br>
+            <label>file </label>
+            <input type="file" name="file"> </br>
+            <input type="text" name="details"> </br>
+            <label> details </label>
+            <input type="text" name="profilePhoto"> </br>
+            <label>addressh! </label>
+            <input type="text" name="address"> </br>
+            <label>nid 1 </label>
+            <input type="file" name="nid1"> </br>
+            <label>nid 2 </label>
+            <input type="file" name="nid2"> </br>
+            <button type="submit"> Submit </button>
+        </form>
+    </div>
+    
+</body>
+</html>
